@@ -1,4 +1,4 @@
-num = int(input('Enter the number you want to show inverted pyramid pattern: '))
+num = int(input('Enter the number you want to see inverted pyramid pattern: '))
 
 #using range() function
 

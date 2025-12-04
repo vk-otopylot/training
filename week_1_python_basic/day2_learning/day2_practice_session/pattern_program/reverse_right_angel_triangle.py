@@ -1,4 +1,4 @@
-num = int(input('Enter the number you want to show reverse right angel star pattern: '))
+num = int(input('Enter the number you want to see reverse right angel star pattern: '))
 
 #Using nested Loop
 

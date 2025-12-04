@@ -1,4 +1,4 @@
-num = int(input('Enter the number you want to show pyramid pattern: '))
+num = int(input('Enter the number you want to see pyramid pattern: '))
 
 #Using nested Loop
 
