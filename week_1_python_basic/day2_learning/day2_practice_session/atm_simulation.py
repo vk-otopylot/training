@@ -20,3 +20,6 @@ elif choice == '3':
     else:
         total_balance = total_balance - withdraw_money
         print(f'your available balance is: {total_balance}')
+
+else:
+    print('Invalid Choice')
