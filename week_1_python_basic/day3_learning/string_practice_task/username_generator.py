@@ -3,4 +3,4 @@ num = input('Enter your favourite number: ')
 
 username = name.lower() + num
 
-print('your username is:',username)
+print(f'your username is: {username}')
