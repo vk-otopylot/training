@@ -9,3 +9,5 @@ for i in range(len(key)):
     print(f'{key[i]}: {val[i]}')
 
 
+result = { k:v for k,v in zip(key,val)}
+print(result)
