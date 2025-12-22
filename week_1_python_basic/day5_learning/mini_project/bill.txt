@@ -1,0 +1,6 @@
+Bill No: 1
+------------
+Pen       	5 X 10 = 50
+Notebook  	2 X 50 = 100
+------------
+Total Amount: 150
