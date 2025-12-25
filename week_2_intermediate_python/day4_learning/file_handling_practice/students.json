@@ -1,0 +1,22 @@
+[
+    {
+        "roll": 1,
+        "name": "vivek",
+        "marks": 85
+    },
+    {
+        "roll": 2,
+        "name": "shani",
+        "marks": 58
+    },
+    {
+        "roll": 3,
+        "name": "hardeep",
+        "marks": 67
+    },
+    {
+        "roll": 4,
+        "name": "ayush",
+        "marks": 47
+    }
+]

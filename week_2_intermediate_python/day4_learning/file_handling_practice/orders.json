@@ -1,0 +1,26 @@
+[
+    {
+        "name": "vivek k",
+        "Mobile_no": "9484880483",
+        "address": "surat",
+        "amount": "1250"
+    },
+    {
+        "name": "shani k",
+        "Mobile_no": "9429199289",
+        "address": "ahmedabad",
+        "amount": "750"
+    },
+    {
+        "name": "hardeep d",
+        "Mobile_no": "9409931036",
+        "address": "surat",
+        "amount": "4250"
+    },
+    {
+        "name": "ayush m",
+        "Mobile_no": "7990943595",
+        "address": "baroda",
+        "amount": "450"
+    }
+]
