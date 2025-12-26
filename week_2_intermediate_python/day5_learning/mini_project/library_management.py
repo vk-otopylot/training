@@ -208,3 +208,5 @@ class LibrarySystem(Book,Member):
 # # ls1.issue_book(101,1001)
 # ls1.return_book('101','1001')
 # ls1.add_book(103,'hardeepbhai','hardeepd','self_discipline',225,180)
+
+# print(type(ls1))
