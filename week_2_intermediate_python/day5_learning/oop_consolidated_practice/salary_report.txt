@@ -1,0 +1,21 @@
+Employee ID : 101
+Name        : vivek
+Base Salary : 12500.0
+Gross Salary: 14375.0
+Deductions  : 1250.0
+Net Salary  : 13125.0
+---------------------------------
+Employee ID : 102
+Name        : shani
+Base Salary : 14400.0
+Gross Salary: 16560.0
+Deductions  : 1440.0
+Net Salary  : 15120.0
+---------------------------------
+Employee ID : 103
+Name        : ayush
+Base Salary : 9500.0
+Gross Salary: 10925.0
+Deductions  : 950.0
+Net Salary  : 9975.0
+---------------------------------
