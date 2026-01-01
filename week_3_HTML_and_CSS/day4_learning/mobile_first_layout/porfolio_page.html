@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vivek-portfolio</title>
+    <style>
+        header,main,footer{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 100vw;
+            background-color: #57876c;
+        }
+        header{
+
+            font-size: 20px;
+            letter-spacing: 5px;
+        }
+        body{
+            margin-left: 0;
+            margin-top: 0;
+        }
+        h1{
+            margin-bottom: 0;
+        }
+        .skill{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap:10px;
+        }
+        div > p{
+            margin: 0;
+        }
+        @media screen and (min-width: 768px){
+            header,main,footer{
+                font-size: 20px;
+            }
+            .skill{
+            grid-template-columns: max-content max-content;
+                justify-content: center;
+            }
+        }
+        @media screen and (min-width: 1024px){
+           header,main,footer{
+               margin: 15px 0;
+               padding: 30px;
+           }
+        }
+    </style>
+</head>
+<body>
+<header>
+<h1>Vivek Kakadiya</h1>
+</header>
+<main>
+<div class="about">
+    <h2>About me</h2>
+    Hello my name is vivek kakadiya. And am a Odoo developer.
+</div>
+    <h2>Skills</h2>
+    <div class="skill">
+        <p>Python</p>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Javascript</p>
+    </div>
+    <div class="contact">
+        <h2>Contact Details</h2>
+        <p>Email: vk@otopylot.com</p>
+        <p>Mo: 9484880483</p>
+        <p>Address: Surat, Gujarat</p>
+    </div>
+</main>
+<footer>
+<p>@Copyright section</p>
+</footer>
+</body>
+</html>

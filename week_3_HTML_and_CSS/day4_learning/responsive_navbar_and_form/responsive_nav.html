@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>navbar-page</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        a:hover{
+            color: red;
+        }
+        h1,h2{
+            text-align: center;
+            color: #0bb9df;
+        }
+        a{
+            color: #5c5c63;
+            text-decoration: none;
+        }
+        select{
+            display: none;
+        }
+        @media screen and (max-width: 768px){
+            select{
+                display: block;
+                margin-left: auto;
+            }
+            nav{
+                display: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<nav>
+  <img src="Otopylot.webp" alt="company logo" width="200px">
+  <a href="#">Home</a>
+  <a href="#">About Us</a>
+  <a href="#">Services</a>
+  <a href="#">Contact Us</a>
+</nav>
+<label>
+    <select>
+      <option>Home</option>
+      <option>About Us</option>
+      <option>Services</option>
+      <option>Contact Us</option>
+    </select>
+</label>
+<hr>
+<h1>Welcome to the otopylot technology</h1>
+<h2>We provide Services to manage your Business.</h2>
+</body>
+</html>

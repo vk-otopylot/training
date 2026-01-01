@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>product_card</title>
+    <style>
+      .prod1, .prod2, .prod3, .prod4, .prod5, .prod6, .prod7, .prod8{
+          border: 2px solid black;
+          padding: 10px;
+          width: 300px;
+          text-align: center;
+          height: 370px;
+          margin-bottom: 10px;
+      }
+      .container{
+          display: grid;
+          grid-template-columns: 1fr;
+          place-items: center;
+      }
+      body{
+          background-color: #5e5e9c;
+      }
+      button{
+          background-color: #5e5e9c;
+          border-radius: 5px;
+      }
+      button:hover{
+          background-color: green;
+      }
+
+      @media screen and (min-width: 768px){
+          .container{
+              grid-template-columns: 1fr 1fr;
+          }
+      }
+      @media screen and (min-width: 1024px){
+          .container{
+              grid-template-columns: 1fr 1fr 1fr 1fr;
+          }
+      }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="prod1">
+        <img src="download.jpg" alt="Product image"></img>
+        <h3>Name</h3>
+        <h2>Price</h2>
+        <button>Buy now</button>
+    </div>
+    <div class="prod2">
+        <img src="download (1).jpg" alt="Product image"></img>
+        <h3>Name</h3>
+        <h2>Price</h2>
+        <button>Buy now</button>
+    </div>
+    <div class="prod3">
+        <img src="download (2).jpg" alt="Product image"></img>
+        <h3>Name</h3>
+        <h2>Price</h2>
+        <button>Buy now</button>
+    </div>
+    <div class="prod4">
+        <img src="download (4).jpg" alt="Product image"></img>
+        <h3>Name</h3>
+        <h2>Price</h2>
+        <button>Buy now</button>
+    </div>
+    <div class="prod5">
+        <img src="images.jpg" alt="Product image"></img>
+        <h3>Name</h3>
+        <h2>Price</h2>
+        <button>Buy now</button>
+    </div>
+    <div class="prod6">
+        <img src="images (1).jpg" alt="Product image"></img>
+        <h3>Name</h3>
+        <h2>Price</h2>
+        <button>Buy now</button>
+    </div>
+    <div class="prod7">
+        <img src="images (2).jpg" alt="Product image"></img>
+        <h3>Name</h3>
+        <h2>Price</h2>
+        <button>Buy now</button>
+    </div>
+    <div class="prod8">
+        <img src="images (3).jpg" alt="Product image"></img>
+        <h3>Name</h3>
+        <h2>Price</h2>
+        <button>Buy now</button>
+    </div>
+</div>
+
+</body>
+</html>
