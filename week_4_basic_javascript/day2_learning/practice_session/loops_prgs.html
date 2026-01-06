@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js-loops-programs</title>
+</head>
+<body>
+<script>
+    // Count how many numbers between 1–100 are divisible by 3.
+    // let count = 0
+    // for(let i=1; i<=100; i++){
+    //     if(i%3===0){
+    //         count = count + 1
+    //     }
+    // }
+    // console.log(count)
+
+    // Check whether a number is prime or not.
+
+    // let num = Number(prompt('Enter the number'))
+    // let prime = true
+    // for(let i=2 ; i<num; i++){
+    // if (num%i === 0){
+    //     prime = false
+    //     break
+    //     }
+    // }
+    // if (prime){
+    //     console.log('Prime')
+    // }
+    // else{
+    //     console.log('Not prime')
+    // }
+
+    // Generate the Fibonacci series up to N terms.
+    let num = Number(prompt('Enter the number'))
+    let a = 0
+    let b = 1
+    console.log(a)
+    console.log(b)
+    for(i=2; i<num; i++){
+        let c = a + b
+        console.log(c)
+        a = b
+        b = c
+    }
+
+</script>
+</body>
+</html>

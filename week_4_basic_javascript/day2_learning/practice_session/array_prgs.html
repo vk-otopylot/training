@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array-programs</title>
+</head>
+<body>
+<script>
+    // Separate numbers into: even array, odd array
+    // const nums = [12, 45, 12, 78, 52, 78, 11]
+    // const even = []
+    // const odd = []
+    // for (num of nums){
+    //     if(num%2===0){
+    //         even.push(num)
+    //     }
+    //     else{
+    //         odd.push(num)
+    //     }
+    // }
+    // console.log(even)
+    // console.log(odd)
+
+
+    // Merge two arrays without using loops.
+    // let num1 = [1,2,3,4,5]
+    // let num2 = [6,7,8,9,10]
+    // let result = [...num1, ...num2]
+    // console.log(result)
+
+    // Find second largest number in an array.
+    let nums = [12,5,1,45,78,52]
+    nums.sort((a,b) => a-b)
+    console.log(nums[nums.length-2])
+
+</script>
+</body>
+</html>
