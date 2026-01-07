@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>function-programs</title>
+</head>
+<body>
+<script>
+
+    // Create a function that returns the square of a number.
+    // function square(num){
+    //     return num*num
+    // }
+    // console.log(square(4))
+
+    // Create a function that calculates the factorial of a number.
+    // function fact(num){
+    //     let total = 1
+    //     for(let i=1 ; i<=num; i++){
+    //         total = total*i
+    //     }
+    //     return total
+    // }
+    // console.log(fact(5))
+
+    // Create a function that returns the sum of all numbers in an array.
+    function sum_of_all(...args){
+        let sum = 0
+        for(let item of args){
+            sum = sum + item
+        }
+        return sum
+    }
+    console.log(sum_of_all(12,54,78,89))
+
+</script>
+</body>
+</html>
