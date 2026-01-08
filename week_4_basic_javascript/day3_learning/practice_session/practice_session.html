@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js-practice-session</title>
+</head>
+<body>
+<script>
+
+    // Function tasks
+
+    // Function to return the largest number from an array.
+    // function max(arr){
+    //     max = arr[0]
+    //     for(let item of arr){
+    //         if(item > max){
+    //             max = item
+    //         }
+    //     }
+    //     return max
+    // }
+    // console.log(max(([12,45,78,14,56])))
+
+    // Function to check whether a string is palindrome.
+    // function check_palindrome(text){
+    //     let result = ''
+    //     for(let i=text.length; i>0; i--){
+    //         result = result + text[i-1]
+    //     }
+    //     if(text===result){
+    //         return 'Palindrome'
+    //     }else{
+    //        return 'Not palindrome'
+    //     }
+    // }
+    // console.log(check_palindrome('vivek'))
+
+    // Function that returns sum of even numbers from an array.
+    // function sum_of_even(nums){
+    //     let sum = 0
+    //     for(num of nums){
+    //         if(num%2===0){
+    //             sum = sum + num
+    //         }
+    //     }
+    //     return sum
+    // }
+    // console.log(sum_of_even(([12,11,15,45,75,82,86])))
+
+    // Arrow function to find square of each number in array using map().
+    // let square = (nums) => nums.map(a => a*a)
+    // console.log(square([1,2,3,4,5]))
+
+    // Arrow function to return longest word in a string.
+    // let longest = (text) => text.split(' ').reduce((longest,word) => word.length > longest.length ? word: longest)
+    // console.log(longest('hello my name is vivek kakadia and i am from surat.'))
+
+    // Create product object → apply discount price.
+    prod1 = {
+        name: 'watch',
+        price: 1200,
+    }
+    let payable_amount = prod1.price - (prod1.price * 0.05)
+    console.log('Payable amount=',payable_amount)
+
+</script>
+</body>
+</html>
