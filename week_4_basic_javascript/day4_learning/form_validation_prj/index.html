@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form-validation-project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <form onsubmit="validateForm(event)" novalidate action="">
+        <label>Name: <input type="text" id="name"> </label>
+        <span id="name-error" class="error"></span>
+        <label>Email: <input type="email" id="email"> </label>
+        <span id="email-error" class="error"></span>
+        <label>Password: <input type="password" id="password"> </label>
+        <span id="password-error" class="error"></span>
+        <label>Confirm Password: <input type="password" id="confirm-password"> </label>
+        <span id="confirm-password-error" class="error"></span>
+        <input type="submit" value="Submit">
+        <span id="success-msg"></span>
+    </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM-selectors</title>
+    <style>
+        div{
+            color: red;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+
+<!--<p id="para"> Hello World. </p>-->
+
+<!--<button class="btn">vivek</button>-->
+<!--<button class="btn">vivek</button>-->
+<!--<button class="btn">vivek</button>-->
+<!--<button class="btn">vivek</button>-->
+<!--<button class="btn">vivek</button>-->
+
+<!--<input type="text" value="vivek">-->
+<!--<input type="text" value="kakadia">-->
+
+<!--<ul>-->
+<!--    <li>vivek</li>-->
+<!--    <li>kakadia</li>-->
+<!--    <li>surat</li>-->
+<!--    <li>gujarat</li>-->
+<!--</ul>-->
+
+<div>
+    hello world
+</div>
+
+
+<script>
+    // Select a paragraph by id and change its text.
+    // document.getElementById('para').textContent = 'Time to move fron hello world.'
+
+    // Select all buttons by class and change their background color.
+    // let button = document.getElementsByClassName('btn')
+    // for(let item of button){
+    //     item.style.backgroundColor = 'red';
+    // }
+
+    // Select the first input using querySelector() and log its value.
+    // let val = document.querySelector('input').value
+    // console.log(val)
+
+    // Select all list items using querySelectorAll() and print their text.
+    // let data = document.querySelectorAll('li')
+    // for(let item of data){
+    //     console.log(item.textContent)
+    // }
+
+    // Select a div and toggle a CSS class on it.
+    let div = document.getElementsByTagName('div')[0]
+    div.style.backgroundColor = 'red'
+    div.style.color = 'black'
+
+</script>
+</body>
+</html>

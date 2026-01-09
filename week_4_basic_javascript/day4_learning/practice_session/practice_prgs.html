@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>real-world-practice</title>
+    <style>
+        body {
+            background: white;
+            color: black;
+            transition: 0.3s;
+        }
+        .dark-mode {
+            background: #121212;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<!--<input type="password" placeholder="enter password here" id="password">-->
+<!--<input type="checkbox" id="checkbox">-->
+
+<!--<div id="container">-->
+<!--    HEllO WORLD!!!-->
+<!--</div>-->
+<!--<button id="btn">click me for dark mode</button>-->
+
+<button id="plus">+</button>
+<button id="minus">-</button>
+<p>Total Count: <span id="count">0</span></p>
+
+<script>
+
+    // Show / hide a password field using a checkbox.
+    // let pass = document.getElementById('password')
+    // let checkbox = document.getElementById('checkbox')
+    // checkbox.addEventListener('click', function(){
+    //     if(pass.type === 'password'){
+    //         pass.type = 'text'
+    //     }
+    //     else{
+    //         pass.type = 'password'
+    //     }
+    // })
+
+    // Toggle dark mode using a button.
+    // let btn = document.getElementById('btn')
+    // btn.addEventListener('click', function(){
+    //     document.body.classList.toggle("dark-mode");
+    // })
+
+    // Build a mini counter app
+    let count = document.getElementById('count')
+    let plus_btn = document.getElementById('plus')
+    let minus_btn = document.getElementById('minus')
+    plus_btn.addEventListener('click', function(){
+        let currValue = Number(count.textContent)
+        count.textContent = `${currValue + 1}`
+    })
+    minus_btn.addEventListener('click', function(){
+        let currValue = Number(count.textContent)
+        count.textContent = `${currValue - 1}`
+    })
+
+</script>
+</body>
+</html>

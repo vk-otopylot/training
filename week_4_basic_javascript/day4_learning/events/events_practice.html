@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>events-in-js</title>
+    <style>
+        #container{
+            background-color: red;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<!--<p id="para"> Vivek kakadia </p>-->
+<!--<button onclick="changeText()">Click me</button>-->
+
+<!--<input type="text" id="textinput">-->
+<!--<p id="para"></p>-->
+
+<!--<form id="myForm">-->
+<!--    <input type="text" id="name" placeholder="enter name">-->
+<!--    <input type="text" id="roll" placeholder="enter roll no">-->
+<!--    <input type="text" id="age" placeholder="enter age">-->
+<!--    <input type='submit'>-->
+<!--</form>-->
+<!--<p id="data"></p>-->
+
+<div id="container">
+
+</div>
+
+
+<script>
+    // Button click → change text of a paragraph.
+    // function changeText(){
+    //     document.getElementById('para').textContent = 'Forgot me??'
+    // }
+
+    // Input keyup event → show typed text in real time.
+    // let text = document.getElementById('textinput')
+    // let para = document.getElementById('para')
+    // text.addEventListener('keyup', function(){
+    //     para.textContent = text.value
+    // })
+
+    // Form submit event → prevent page reload and log form data.
+    // let form = document.getElementById('myForm')
+    // let data = document.getElementById('data')
+    //
+    // form.addEventListener('submit', function(e){
+    //     e.preventDefault()
+    //     let name = document.getElementById('name').value
+    //     let roll = document.getElementById('roll').value
+    //     let age = document.getElementById('age').value
+    //     data.textContent = `Name: ${name}, Roll: ${roll}, Age: ${age}`
+    // })
+
+    // Mouse hover (mouseenter / mouseleave) → change box color.
+    let box = document.getElementById('container')
+    box.addEventListener('mouseenter', function(){
+        box.style.backgroundColor = 'green'
+    })
+    box.addEventListener('mouseleave', function(){
+        box.style.backgroundColor = 'yellow'
+    })
+
+</script>
+</body>
+</html>
