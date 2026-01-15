@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Library>
+    <book id="101">
+        <name>All about Life</name>
+        <author>vivek k</author>
+        <price>120</price>
+        <desc>essential of life</desc>
+    </book>
+    <book id="102">
+        <name>Business</name>
+        <author>shani k</author>
+        <price>340</price>
+        <desc>What takes Business from you</desc>
+    </book>
+    <book id="103">
+        <name>Lucky Persons</name>
+        <author>Hardeep D</author>
+        <price>420</price>
+        <desc>Who is lucky persons in this world</desc>
+    </book>
+</Library>
