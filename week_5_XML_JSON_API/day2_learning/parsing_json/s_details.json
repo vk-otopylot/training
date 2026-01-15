@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": 101,
+      "name": "Carlos",
+      "active": true,
+      "grades": [2.3, 4.3, 5.0],
+      "yearsOld": 15,
+      "major": "Computer Science"
+    },
+    {
+      "id": 202,
+      "name": "Mark",
+      "active": true,
+      "grades": [3.3, 5.0, 3.0],
+      "yearsOld": 18,
+      "major": "Mathematics"
+    },
+    {
+      "id": 303,
+      "name": "Stephany",
+      "active": false,
+      "grades": [3.3, 4.0, 3.8],
+      "yearsOld": 17,
+      "major": "Biology"
+    }
+  ]
+}
