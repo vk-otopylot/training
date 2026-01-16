@@ -19,4 +19,4 @@ data = {
 }
 
 r = requests.post('https://jsonplaceholder.typicode.com/posts', data= data)
-print(r)
+print(r.status_code)
