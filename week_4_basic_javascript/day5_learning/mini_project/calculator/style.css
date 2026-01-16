@@ -1,22 +1,37 @@
 body{
-    background-color: #cdcdcd;
+    background-color: #e0e3eb;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 .container{
-    background-color: white;
-    width: 40%;
-    display:grid;
-    place-content: center;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
     text-align: right;
 }
 .op-btn{
     display: grid;
-    grid-template-columns: max-content max-content max-content max-content;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
 }
-.para{
+#para{
     text-align: grid-end;
+    font-size: 20px;
+}
+button{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #eee;
+}
+.opr{
+    color: #2f9fff;
 }
