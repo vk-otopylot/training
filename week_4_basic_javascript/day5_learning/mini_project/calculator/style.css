@@ -1,0 +1,22 @@
+body{
+    background-color: #cdcdcd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: white;
+    width: 40%;
+    display:grid;
+    place-content: center;
+    text-align: right;
+}
+.op-btn{
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content;
+    gap: 10px;
+}
+.para{
+    text-align: grid-end;
+}
