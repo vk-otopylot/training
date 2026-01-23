@@ -73,7 +73,7 @@ def start_app():
         case '2': return add_new_product()
         case '3': return update_quantity()
         case '4': return remove_product()
-        case '5': return None;
+        case '5': return None
         case _:
             print( 'Invalid Choice')
             return None
