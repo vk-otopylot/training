@@ -1,6 +1,6 @@
 import psycopg2
 
-conn = psycopg2.connect(database='company_db', user='postgres', password='vivek9484', host='localhost', port='5432')
+conn = psycopg2.connect(database='company_db', user='postgres', password='postgres123', host='localhost', port='5432')
 
 # print('connection successfully.')
 
