@@ -2,7 +2,7 @@ import psycopg2
 
 def get_connection():
     try:
-        conn = psycopg2.connect(database='inventory_system', user='postgres', password='vivek9484', host='localhost',
+        conn = psycopg2.connect(database='inventory_system', user='postgres', password='postgres123', host='localhost',
                             port='5432')
         return conn
     except Exception as e:
